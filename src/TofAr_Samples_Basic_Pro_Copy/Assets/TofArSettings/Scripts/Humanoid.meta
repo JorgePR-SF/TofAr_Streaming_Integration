@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:src/TofARUnity/Assets/TofAr/TofAr/V0/Resources/DeviceProfiles/iphone_12_pro_v1.4.0.json.meta
+guid: de5819b6c214740c59a6683f97f57e4d
+TextScriptImporter:
+========
+guid: 8541818ccea0c40b7a26efc092fc6658
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> release/1.3.0_pro:src/Distribution/Pro/TofARUnity/Assets/TofArSettings/Scripts/Humanoid.meta
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
