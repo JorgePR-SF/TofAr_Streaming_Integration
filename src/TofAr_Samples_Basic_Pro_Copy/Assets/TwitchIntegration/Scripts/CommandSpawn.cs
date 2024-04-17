@@ -13,7 +13,16 @@ namespace SystemFriend.TwitchIntegration
 
         public override void TriggerAction<T>(T arg)
         {
-            throw new System.NotImplementedException();
+            switch (arg)
+            {
+                case Color color:
+                    GameObject go = Instantiate(spawnableObject, CalculateRandomPosition(), Quaternion.identity);
+                    go.GetComponent<Renderer>().material.color = color;
+                    break;
+
+                default:
+                    break;
+            }
         }
 
         public override void TriggerAction()
